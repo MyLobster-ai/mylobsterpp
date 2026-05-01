@@ -2,6 +2,7 @@
 
 #include <boost/asio/use_awaitable.hpp>
 
+#include "openclaw/agent/dynamic_tool.hpp"
 #include "openclaw/core/logger.hpp"
 
 namespace openclaw::gateway {
@@ -45,10 +46,22 @@ void register_tool_handlers(Protocol& protocol,
 
     // tool.register
     protocol.register_method("tool.register",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // Dynamic tool registration requires constructing a Tool instance
-            // from a JSON schema. TODO: implement DynamicTool.
-            co_return json{{"ok", false}, {"error", "Dynamic tool registration not yet supported"}};
+        [&tools]([[maybe_unused]] json params) -> awaitable<json> {
+            auto schema = params.value("schema", json::object());
+            if (!schema.is_object() || schema.empty()) {
+                schema = params;  // accept top-level schema for ergonomic callers
+            }
+            auto tool_result = agent::DynamicTool::from_schema(schema);
+            if (!tool_result.has_value()) {
+                co_return json{{"ok", false}, {"error", tool_result.error().what()}};
+            }
+            auto def = tool_result.value()->definition();
+            tools.register_tool(std::move(tool_result.value()));
+            co_return json{
+                {"ok", true},
+                {"name", def.name},
+                {"description", def.description},
+            };
         },
         "Register a new dynamic tool", "tool");
 
@@ -86,16 +99,29 @@ void register_tool_handlers(Protocol& protocol,
 
     // tool.enable
     protocol.register_method("tool.enable",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: tool enable/disable flags.
-            co_return json{{"ok", true}};
+        [&tools]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            if (!tools.set_enabled(name, true)) {
+                co_return json{{"ok", false}, {"error", "Tool not found: " + name}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"enabled", true}};
         },
         "Enable a disabled tool", "tool");
 
     // tool.disable
     protocol.register_method("tool.disable",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", true}};
+        [&tools]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            if (!tools.set_enabled(name, false)) {
+                co_return json{{"ok", false}, {"error", "Tool not found: " + name}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"enabled", false}};
         },
         "Disable a tool without unregistering", "tool");
 

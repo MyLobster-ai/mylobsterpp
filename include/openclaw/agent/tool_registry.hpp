@@ -4,6 +4,7 @@
 #include <string>
 #include <string_view>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 #include <boost/asio.hpp>
@@ -66,6 +67,16 @@ public:
     /// Remove all registered tools.
     void clear();
 
+    /// Enable or disable a registered tool. Disabled tools remain registered
+    /// and discoverable via list()/describe() but cannot be invoked through
+    /// execute() — callers receive a FailedPrecondition error instead.
+    /// Returns true if the tool was found.
+    auto set_enabled(std::string_view name, bool enabled) -> bool;
+
+    /// Returns true if the tool is currently enabled. A non-existent tool
+    /// returns false.
+    [[nodiscard]] auto is_enabled(std::string_view name) const -> bool;
+
     /// v2026.3.2: Normalize streamed alias/case tool names against allowed set.
     /// Performs case-insensitive and separator-normalized matching.
     /// Preserves whitespace-only streamed placeholders.
@@ -73,6 +84,7 @@ public:
 
 private:
     std::unordered_map<std::string, std::unique_ptr<Tool>> tools_;
+    std::unordered_set<std::string> disabled_;
 };
 
 } // namespace openclaw::agent

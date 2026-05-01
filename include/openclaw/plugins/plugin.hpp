@@ -5,6 +5,7 @@
 #include <string_view>
 
 #include <boost/asio/awaitable.hpp>
+#include <nlohmann/json.hpp>
 
 #include "openclaw/core/error.hpp"
 
@@ -40,6 +41,26 @@ public:
 
     /// Gracefully shut down the plugin, releasing any resources.
     virtual auto shutdown() -> awaitable<void> = 0;
+
+    /// Apply a runtime settings update. Plugins that don't override this
+    /// silently ignore the request. Default is a no-op so existing plugins
+    /// remain ABI-compatible.
+    virtual auto configure([[maybe_unused]] const nlohmann::json& settings)
+        -> Result<void> {
+        return {};
+    }
+
+    /// Call a named function exported by the plugin. Plugins that don't
+    /// expose any callable functions return a NotFound error. Default
+    /// implementation returns NotFound for ABI compatibility.
+    virtual auto call(std::string_view function,
+                      [[maybe_unused]] const nlohmann::json& args)
+        -> awaitable<Result<nlohmann::json>> {
+        co_return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "Plugin function not exported",
+            std::string(function)));
+    }
 };
 
 /// Factory function type that shared libraries must export.

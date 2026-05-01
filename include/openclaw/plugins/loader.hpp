@@ -7,6 +7,8 @@
 #include <unordered_map>
 #include <vector>
 
+#include <nlohmann/json.hpp>
+
 #include "openclaw/core/error.hpp"
 #include "openclaw/plugins/plugin.hpp"
 
@@ -68,11 +70,30 @@ public:
     static auto validate_command(std::string_view name, std::string_view description)
         -> Result<void>;
 
+    /// Enable or disable a loaded plugin without unloading it. Disabled
+    /// plugins remain registered but should be skipped by callers.
+    auto set_enabled(std::string_view name, bool enabled) -> Result<void>;
+
+    /// Returns true if the plugin is currently enabled. Errors if not loaded.
+    [[nodiscard]] auto is_enabled(std::string_view name) const -> Result<bool>;
+
+    /// Update a plugin's settings dictionary at runtime. Forwards to the
+    /// plugin's `configure()` hook so it can apply changes.
+    auto configure(std::string_view name, const nlohmann::json& settings)
+        -> Result<void>;
+
+    /// Get the most recent settings dictionary for a plugin (empty object
+    /// if never configured).
+    [[nodiscard]] auto get_settings(std::string_view name) const
+        -> Result<nlohmann::json>;
+
 private:
     struct LoadedPlugin {
         void* handle = nullptr;
         std::unique_ptr<Plugin> plugin;
         std::filesystem::path path;
+        bool enabled = true;
+        nlohmann::json settings = nlohmann::json::object();
     };
 
     std::unordered_map<std::string, LoadedPlugin> loaded_;

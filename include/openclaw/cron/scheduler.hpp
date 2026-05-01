@@ -56,6 +56,13 @@ public:
     /// @returns     Error if no task with this name exists.
     auto cancel(std::string_view name) -> Result<void>;
 
+    /// Enable or disable a scheduled task without removing it.
+    /// Disabled tasks remain registered but are skipped by the run loop.
+    auto set_enabled(std::string_view name, bool enabled) -> Result<void>;
+
+    /// Returns true if the task is currently enabled. Errors if the task does not exist.
+    [[nodiscard]] auto is_enabled(std::string_view name) const -> Result<bool>;
+
     /// Start the scheduler's run loop.
     /// This coroutine ticks once per minute and fires matching tasks.
     /// It runs until stop() is called.
@@ -145,6 +152,7 @@ private:
         CronExpression expression;
         Task task;
         bool delete_after_run = false;  // Auto-cancel after successful execution
+        bool enabled = true;            // Disabled tasks stay registered but are skipped by the run loop
         int stagger_ms = 0;             // Delay before execution (jitter)
         std::optional<std::string> session_key;  // v2026.2.26: session key for task context
         // v2026.3.2: Failure alerting per job

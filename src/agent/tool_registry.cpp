@@ -156,6 +156,12 @@ auto ToolRegistry::execute(std::string_view name, json params)
             "Tool not found",
             std::string(name)));
     }
+    if (disabled_.contains(normalized_name)) {
+        co_return make_fail(make_error(
+            ErrorCode::Forbidden,
+            "Tool is disabled",
+            normalized_name));
+    }
 
     LOG_DEBUG("Executing tool: {} with params: {}", name, params.dump());
 
@@ -191,6 +197,29 @@ auto ToolRegistry::remove(std::string_view name) -> bool {
 void ToolRegistry::clear() {
     LOG_INFO("Clearing all {} registered tools", tools_.size());
     tools_.clear();
+    disabled_.clear();
+}
+
+auto ToolRegistry::set_enabled(std::string_view name, bool enabled) -> bool {
+    auto normalized = normalize_tool_name(name);
+    if (!tools_.contains(normalized)) {
+        return false;
+    }
+    if (enabled) {
+        disabled_.erase(normalized);
+    } else {
+        disabled_.insert(normalized);
+    }
+    LOG_INFO("Tool '{}' {}", normalized, enabled ? "enabled" : "disabled");
+    return true;
+}
+
+auto ToolRegistry::is_enabled(std::string_view name) const -> bool {
+    auto normalized = normalize_tool_name(name);
+    if (!tools_.contains(normalized)) {
+        return false;
+    }
+    return !disabled_.contains(normalized);
 }
 
 } // namespace openclaw::agent

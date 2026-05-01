@@ -19,7 +19,9 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(nlohmann_json)
 
-# spdlog (includes fmt)
+# spdlog (uses C++20 std::format on C++23 to avoid bundled-fmt consteval
+# incompatibility with newer clangs)
+set(SPDLOG_USE_STD_FORMAT ON CACHE BOOL "" FORCE)
 FetchContent_Declare(
     spdlog
     GIT_REPOSITORY https://github.com/gabime/spdlog.git

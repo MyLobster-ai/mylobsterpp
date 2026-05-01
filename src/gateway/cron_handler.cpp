@@ -104,16 +104,31 @@ void register_cron_handlers(Protocol& protocol,
 
     // cron.enable
     protocol.register_method("cron.enable",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: per-task enable/disable.
-            co_return json{{"ok", true}};
+        [&scheduler]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            auto result = scheduler.set_enabled(name, true);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"enabled", true}};
         },
         "Enable a scheduled task", "cron");
 
     // cron.disable
     protocol.register_method("cron.disable",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", true}};
+        [&scheduler]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            auto result = scheduler.set_enabled(name, false);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"enabled", false}};
         },
         "Disable a scheduled task", "cron");
 

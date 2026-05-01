@@ -94,6 +94,32 @@ auto CronScheduler::cancel(std::string_view name) -> Result<void> {
     return {};
 }
 
+auto CronScheduler::set_enabled(std::string_view name, bool enabled) -> Result<void> {
+    std::lock_guard lock(mutex_);
+    auto it = tasks_.find(std::string(name));
+    if (it == tasks_.end()) {
+        return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "No cron task with this name",
+            std::string(name)));
+    }
+    it->second.enabled = enabled;
+    LOG_INFO("Cron task '{}' {}", name, enabled ? "enabled" : "disabled");
+    return {};
+}
+
+auto CronScheduler::is_enabled(std::string_view name) const -> Result<bool> {
+    std::lock_guard lock(mutex_);
+    auto it = tasks_.find(std::string(name));
+    if (it == tasks_.end()) {
+        return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "No cron task with this name",
+            std::string(name)));
+    }
+    return it->second.enabled;
+}
+
 auto CronScheduler::start() -> awaitable<void> {
     running_.store(true, std::memory_order_release);
     LOG_INFO("Cron scheduler started");
@@ -155,6 +181,9 @@ auto CronScheduler::start() -> awaitable<void> {
         {
             std::lock_guard lock(mutex_);
             for (const auto& [_, task] : tasks_) {
+                if (!task.enabled) {
+                    continue;
+                }
                 if (matches(task.expression, tick_time)) {
                     matching.push_back(task);
                 }
@@ -411,12 +440,16 @@ auto CronScheduler::list(const CronListParams& params) const -> std::vector<std:
     // Collect all task names
     std::vector<std::string> names;
     names.reserve(tasks_.size());
-    for (const auto& [name, _] : tasks_) {
+    for (const auto& [name, task] : tasks_) {
         // Apply query filter (substring match on name)
         if (params.query && !params.query->empty()) {
             if (name.find(*params.query) == std::string::npos) {
                 continue;
             }
+        }
+        // Apply enabled filter
+        if (params.enabled.has_value() && task.enabled != *params.enabled) {
+            continue;
         }
         names.push_back(name);
     }

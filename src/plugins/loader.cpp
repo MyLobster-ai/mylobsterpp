@@ -357,4 +357,58 @@ auto PluginLoader::validate_command(std::string_view name,
     return {};
 }
 
+auto PluginLoader::set_enabled(std::string_view name, bool enabled) -> Result<void> {
+    auto it = loaded_.find(std::string(name));
+    if (it == loaded_.end()) {
+        return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "Plugin not loaded",
+            std::string(name)));
+    }
+    it->second.enabled = enabled;
+    LOG_INFO("Plugin '{}' {}", name, enabled ? "enabled" : "disabled");
+    return {};
+}
+
+auto PluginLoader::is_enabled(std::string_view name) const -> Result<bool> {
+    auto it = loaded_.find(std::string(name));
+    if (it == loaded_.end()) {
+        return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "Plugin not loaded",
+            std::string(name)));
+    }
+    return it->second.enabled;
+}
+
+auto PluginLoader::configure(std::string_view name, const nlohmann::json& settings)
+    -> Result<void> {
+    auto it = loaded_.find(std::string(name));
+    if (it == loaded_.end()) {
+        return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "Plugin not loaded",
+            std::string(name)));
+    }
+    auto result = it->second.plugin->configure(settings);
+    if (!result.has_value()) {
+        return std::unexpected(result.error());
+    }
+    it->second.settings = settings;
+    LOG_INFO("Plugin '{}' reconfigured", name);
+    return {};
+}
+
+auto PluginLoader::get_settings(std::string_view name) const
+    -> Result<nlohmann::json> {
+    auto it = loaded_.find(std::string(name));
+    if (it == loaded_.end()) {
+        return std::unexpected(make_error(
+            ErrorCode::NotFound,
+            "Plugin not loaded",
+            std::string(name)));
+    }
+    return it->second.settings;
+}
+
 } // namespace openclaw::plugins

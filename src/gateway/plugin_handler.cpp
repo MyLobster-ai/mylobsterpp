@@ -64,24 +64,47 @@ void register_plugin_handlers(Protocol& protocol,
 
     // plugin.enable
     protocol.register_method("plugin.enable",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: plugin enable/disable state tracking.
-            co_return json{{"ok", true}};
+        [&plugins]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            auto result = plugins.set_enabled(name, true);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"enabled", true}};
         },
         "Enable an installed plugin", "plugin");
 
     // plugin.disable
     protocol.register_method("plugin.disable",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            co_return json{{"ok", true}};
+        [&plugins]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            auto result = plugins.set_enabled(name, false);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"enabled", false}};
         },
         "Disable a plugin", "plugin");
 
     // plugin.configure
     protocol.register_method("plugin.configure",
-        []([[maybe_unused]] json params) -> awaitable<json> {
-            // TODO: update plugin settings at runtime.
-            co_return json{{"ok", true}};
+        [&plugins]([[maybe_unused]] json params) -> awaitable<json> {
+            auto name = params.value("name", "");
+            if (name.empty()) {
+                co_return json{{"ok", false}, {"error", "name is required"}};
+            }
+            auto settings = params.value("settings", json::object());
+            auto result = plugins.configure(name, settings);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{{"ok", true}, {"name", name}, {"settings", settings}};
         },
         "Update plugin settings", "plugin");
 
@@ -97,8 +120,16 @@ void register_plugin_handlers(Protocol& protocol,
             if (!p) {
                 co_return json{{"ok", false}, {"error", "Plugin not found: " + name}};
             }
-            // TODO: call exported plugin function.
-            co_return json{{"ok", false}, {"error", "Plugin function calls not yet implemented"}};
+            auto enabled = plugins.is_enabled(name);
+            if (enabled.has_value() && !enabled.value()) {
+                co_return json{{"ok", false}, {"error", "Plugin is disabled: " + name}};
+            }
+            auto args = params.value("args", json::object());
+            auto result = co_await p->call(function, args);
+            if (!result.has_value()) {
+                co_return json{{"ok", false}, {"error", result.error().what()}};
+            }
+            co_return json{{"ok", true}, {"result", result.value()}};
         },
         "Call an exported plugin function", "plugin");
 
