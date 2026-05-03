@@ -16,6 +16,7 @@ option(MYLOBSTER_ENABLE_SANITIZERS "Enable address/UB sanitizers" OFF)
 option(MYLOBSTER_BUILD_SHARED "Build shared library instead of static" OFF)
 option(MYLOBSTER_BUILD_EXECUTABLE "Build the CLI executable" ON)
 option(MYLOBSTER_BUILD_V4_29_PARITY "Build OpenClaw v2026.4.29 parity test mirrors (~4.9k files; OFF for fast iteration)" OFF)
+option(MYLOBSTER_BUILD_V5_2_PARITY "Build OpenClaw v2026.5.2 parity test mirrors (~4.9k files; OFF for fast iteration)" OFF)
 
 # Compiler warnings
 if(MSVC)
