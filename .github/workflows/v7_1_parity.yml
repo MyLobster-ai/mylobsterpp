@@ -1,0 +1,102 @@
+name: v7_1 parity
+
+# Builds the OpenClaw v2026.7.1 parity test binary and reports the failing
+# assertion count (= parity backlog). Runs nightly + on PRs that touch the
+# parity tree, the generator, or any provider source. The job never fails on
+# parity gaps -- the FAIL count is the report -- but it does fail if the
+# binary won't compile or if the FAIL count *grows* (regression guard).
+
+on:
+  schedule:
+    - cron: "0 8 * * *"    # 08:00 UTC nightly (15 min after v5_2)
+  pull_request:
+    branches: [main]
+    paths:
+      - "tests/v7_1/**"
+      - "tests/CMakeLists.txt"
+      - "src/providers/**"
+      - "include/openclaw/providers/**"
+      - ".github/workflows/v7_1_parity.yml"
+  workflow_dispatch:
+
+jobs:
+  parity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false  # parity binary doesn't depend on submodules
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev libcurl4-openssl-dev \
+            libc++-18-dev libc++abi-18-dev clang-18
+
+      - name: Configure (parity ON)
+        run: |
+          cmake -B build \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_C_COMPILER=clang-18 \
+            -DCMAKE_CXX_COMPILER=clang++-18 \
+            -DCMAKE_CXX_FLAGS=-stdlib=libc++ \
+            -DMYLOBSTER_BUILD_V5_2_PARITY=ON
+
+      - name: Build parity binary
+        run: cmake --build build --target mylobster_v7_1_parity_tests -j $(nproc)
+
+      - name: Run parity tests
+        id: run
+        run: |
+          # The binary always exits non-zero when any test fails; we want to
+          # capture the fail count regardless. Catch2 prints
+          # "assertions: <total> | <pass> passed | <fail> failed" on the last line.
+          set +e
+          ./build/tests/mylobster_v7_1_parity_tests --reporter compact '[v7_1]' \
+            > parity_run.log 2>&1
+          status=$?
+          set -e
+          tail -n 3 parity_run.log
+          # Extract FAIL count.
+          fails=$(grep -oE '[0-9]+ failed' parity_run.log | tail -n 1 | grep -oE '^[0-9]+' || echo 0)
+          passes=$(grep -oE '[0-9]+ passed' parity_run.log | tail -n 1 | grep -oE '^[0-9]+' || echo 0)
+          echo "fails=$fails" >> "$GITHUB_OUTPUT"
+          echo "passes=$passes" >> "$GITHUB_OUTPUT"
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Per-tag breakdown
+        run: |
+          for tag in anthropic openai google amazon-bedrock mistral ollama \
+                     agents infra gateway channels plugins memory cron sessions; do
+            line=$(./build/tests/mylobster_v7_1_parity_tests --reporter compact "[v7_1][${tag}]" 2>&1 \
+                   | grep -E "^assertions:" | tail -n 1 || true)
+            echo "  ${tag}: ${line:-(no tests)}"
+          done
+
+      - name: Compare against main baseline
+        if: github.event_name == 'pull_request'
+        env:
+          PARITY_FAILS: ${{ steps.run.outputs.fails }}
+        run: |
+          # Fetch main's PARITY_REPORT.md and extract the previous fail count.
+          git fetch origin main --depth=1
+          if git show origin/main:tests/v7_1/PARITY_REPORT.md > main_report.md 2>/dev/null; then
+            baseline=$(grep -oE 'Fail \(= parity backlog\) \| \*\*[0-9,]+\*\*' main_report.md \
+                       | grep -oE '[0-9,]+' | tail -n 1 | tr -d ',' || echo 0)
+          else
+            baseline=0
+          fi
+          echo "baseline_fails=$baseline current_fails=$PARITY_FAILS"
+          if [ "$PARITY_FAILS" -gt "$baseline" ]; then
+            echo "::error::parity regression: $PARITY_FAILS fails > baseline $baseline"
+            exit 1
+          fi
+
+      - name: Upload parity log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v7_1-parity-log
+          path: parity_run.log
+          retention-days: 14

@@ -14,6 +14,11 @@
 # tree is kept around as a frozen baseline so the version-bump delta stays
 # auditable.
 #
+# v7_1/ is the current target (OpenClaw v2026.7.1): 6784 mirror files /
+# 80,728 TEST_CASEs, gated behind MYLOBSTER_BUILD_V7_1_PARITY. Each tag tree
+# is added alongside its predecessors rather than replacing them — v4_29 and
+# v5_2 stay frozen so each version-bump delta remains auditable.
+#
 # Each parity binary registers one CTest entry that runs the whole binary
 # (instead of 42k individual entries; catch_discover_tests would be too slow
 # for that scale).
@@ -94,4 +99,8 @@ endif()
 
 if(MYLOBSTER_BUILD_V5_2_PARITY)
     mylobster_register_parity_target("v2026.5.2" "v5_2")
+endif()
+
+if(MYLOBSTER_BUILD_V7_1_PARITY)
+    mylobster_register_parity_target("v2026.7.1" "v7_1")
 endif()
